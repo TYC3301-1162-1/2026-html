@@ -2,7 +2,7 @@
 
 风栖小记是一份网页设计课程作品，以个人博客为主题，收录文章、小诗和友链。网站使用 HTML5、CSS3 和原生 JavaScript，可以直接在浏览器中打开。
 
-[浏览网站](./02-网站源码/index.html) · [查看设计稿](./01-设计稿/index.html) · [GitHub 参考项目](https://github.com/TYC3301-1162-1/fonscape-blog)
+[浏览网站](./02-网站源码/index.html) · [查看设计稿](./01-设计稿/index.html)
 
 ## 界面预览
 
