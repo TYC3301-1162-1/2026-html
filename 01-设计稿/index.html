@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>风栖小记 设计稿展示</title>
+    <style>
+        * { box-sizing: border-box; }
+        body { margin: 0; padding: 40px 24px; font: 16px/1.8 "Microsoft YaHei", sans-serif; color: #382f45; background: #f7f1f5; }
+        main { max-width: 1160px; margin: auto; }
+        h1 { font-size: 36px; margin: 0 0 16px; }
+        h2 { margin-top: 40px; }
+        p { color: #786f7d; }
+        a { color: #a13f71; text-underline-offset: 4px; }
+        nav { display: flex; flex-wrap: wrap; gap: 16px; }
+        .boards { display: grid; grid-template-columns: 2fr 1fr; gap: 24px; align-items: start; }
+        figure { margin: 0; padding: 16px; background: #fff; border: 1px solid rgba(56,47,69,.14); border-radius: 16px; }
+        img { display: block; width: 100%; height: auto; }
+        figcaption { margin-top: 16px; font-size: 14px; }
+        .mobile img { max-width: 240px; margin: auto; }
+        .single { max-width: 100%; }
+        :focus-visible { outline: 2px solid #a13f71; outline-offset: 4px; }
+        @media(max-width:768px) { body { padding:24px 16px; } h1 { font-size:28px; } .boards { grid-template-columns:1fr; } }
+    </style>
+</head>
+<body><main>
+    <h1>风栖小记 设计稿展示</h1>
+    <p>第二版关键页面设计。桌面画布 1440px，手机画布 375px。PNG 为原尺寸导出，SVG 为可编辑设计源文件，图片已嵌入，可导入支持 SVG 的设计工具继续调整。</p>
+    <nav aria-label="设计页导航"><a href="#home">首页</a><a href="#articles">文章列表</a><a href="#contact">留言表单</a><a href="#system">设计规范</a><a href="#iteration">第一版结构</a><a href="../02-网站源码/index.html">打开网站成品</a></nav>
+    <section id="home"><h2>首页</h2><div class="boards"><figure><a href="home-desktop.png"><img src="home-desktop.png" alt="首页桌面设计稿" width="1440" height="1510"></a><figcaption>1440px 桌面版 · <a href="home-desktop.svg">可编辑 SVG</a></figcaption></figure><figure class="mobile"><a href="home-mobile.png"><img src="home-mobile.png" alt="首页手机设计稿" width="375" height="2730" loading="lazy"></a><figcaption>375px 手机版 · <a href="home-mobile.svg">可编辑 SVG</a></figcaption></figure></div></section>
+    <section id="articles"><h2>文章列表</h2><div class="boards"><figure><a href="articles-desktop.png"><img src="articles-desktop.png" alt="文章列表桌面设计稿" loading="lazy" width="1440" height="1310"></a><figcaption>1440px 桌面版 · <a href="articles-desktop.svg">可编辑 SVG</a></figcaption></figure><figure class="mobile"><a href="articles-mobile.png"><img src="articles-mobile.png" alt="文章列表手机设计稿" loading="lazy" width="375" height="1810"></a><figcaption>375px 手机版 · <a href="articles-mobile.svg">可编辑 SVG</a></figcaption></figure></div></section>
+    <section id="contact"><h2>留言表单</h2><div class="boards"><figure><a href="contact-desktop.png"><img src="contact-desktop.png" alt="留言表单桌面设计稿" loading="lazy" width="1440" height="1450"></a><figcaption>1440px 桌面版 · <a href="contact-desktop.svg">可编辑 SVG</a></figcaption></figure><figure class="mobile"><a href="contact-mobile.png"><img src="contact-mobile.png" alt="留言表单手机设计稿" loading="lazy" width="375" height="1760"></a><figcaption>375px 手机版 · <a href="contact-mobile.svg">可编辑 SVG</a></figcaption></figure></div></section>
+    <section id="system"><h2>设计规范</h2><figure><a href="design-system.png"><img src="design-system.png" alt="包含色板、字体、间距和按钮状态的设计规范" width="1440" height="1280" loading="lazy"></a><figcaption><a href="design-system.svg">可编辑 SVG</a> · 六色体系、8px 网格、字号与行高、按钮默认／悬停／禁用三态</figcaption></figure></section>
+    <section id="iteration"><h2>第一版结构草图</h2><figure><a href="iteration-v1.png"><img src="iteration-v1.png" alt="第一版居中标题和单列内容结构草图" width="1440" height="1080" loading="lazy"></a><figcaption><a href="iteration-v1.svg">可编辑 SVG</a> · 与第二版的对照说明见设计说明文档。</figcaption></figure></section>
+    <p>此文件为本地只读展示页。尚未创建在线协作链接；GitHub 发布后可用于网页预览，但不自动等同于设计工具协作文件。</p>
+</main></body></html>
